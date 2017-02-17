@@ -22,3 +22,10 @@ Route::get('/editoras', 'EditorasController@index');
 
 // Rota para url 'editoras/1', por exemplo
 Route::get('/editoras/{editora}', 'EditorasController@show');
+
+
+// Rota para 'livros'
+Route::get('/livros', 'LivroController@index');
+
+// Rota para 'livros/1'
+Route::get('/livros/{livro}', 'LivroController@show');
